@@ -14,7 +14,7 @@ const SignUp = () => {
     const handleRegister = async (e) => {
         e.preventDefault()
         if(!user.username || !user.password) return
-        await fetch('https://ravindrakumarkumawat-improved-adventure-4qj6wxr7rr5cj9j6-3001.preview.app.github.dev/api/users/register', {
+        await fetch('http://localhost:3001/api/users/register', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

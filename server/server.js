@@ -1,7 +1,7 @@
 const path = require('path')
 const express = require('express')
 const cors = require('cors')
-require('./models/db/connectDb')
+require('./models/db/connectDB')
 
 const userRouter = require('./routes/user')
 const app = express()

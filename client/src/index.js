@@ -4,8 +4,6 @@ import reportWebVitals from './reportWebVitals';
 import { AuthContextProvider } from "./Context/Authentication/AuthProvider";
 import App from './App';
 
-import './default.css'
-
 const root = createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
